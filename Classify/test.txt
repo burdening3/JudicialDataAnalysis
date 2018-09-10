@@ -1,0 +1,20 @@
+[Car, Traffic, eBike, Fight]	2018/4/3 0:00	崇明区司法局
+[WaterLeak, Neighbor, Fight]	2016/11/28 0:00	黄浦区司法局
+[Fight]	2016/11/30 0:00	黄浦区司法局
+[Noise, Neighbor]	2016/5/3 0:00	黄浦区司法局
+[Fight]	2016/11/7 0:00	黄浦区司法局
+[Rent]	2018/3/29 0:00	闵行区司法局
+[WaterLeak, Neighbor, House, Rent]	2016/3/1 0:00	黄浦区司法局
+[LaborContract, Resign]	2016/6/30 0:00	黄浦区司法局
+[Death, House, Inherit]	2018/5/8 0:00	崇明区司法局
+[WaterLeak, Neighbor]	2016/12/12 0:00	黄浦区司法局
+[House, Inherit]	2015/12/28 0:00	黄浦区司法局
+[WaterLeak, Neighbor]	2016/10/8 0:00	黄浦区司法局
+[Neighbor, Pet]	2016/11/7 0:00	黄浦区司法局
+[Car, Traffic, eBike]	2018/5/8 0:00	崇明区司法局
+[WaterLeak, Neighbor]	2016/6/6 0:00	黄浦区司法局
+[Noise, Neighbor, Rent]	2016/3/17 0:00	黄浦区司法局
+[Neighbor]	2016/6/22 0:00	黄浦区司法局
+[Neighbor, Pet]	2018/4/9 0:00	普陀区司法局
+[Neighbor]	2017/4/19 0:00	黄浦区司法局
+[Neighbor]	2018/5/11 0:00	崇明区司法局
