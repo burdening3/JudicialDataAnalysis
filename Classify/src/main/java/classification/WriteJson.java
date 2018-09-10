@@ -4,13 +4,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class WriteJson {
-    public static void writeWithLoc(Map<String,Integer> countbyLoc){
+    public static void writeWithLoc(Map<String,Integer> countbyLoc, HashMap<String,CateToJson.CateWithLoc> wordMap){
         StringBuffer jsonByLoc = new StringBuffer();
         for (String key:countbyLoc.keySet()
                 ) {
             jsonByLoc.append("\r\n{\r\n       \"Sector\":\""+key.split("@")[0]+"\",\r\n");
             jsonByLoc.append("       \"Company\":\""+key.split("@")[1]+"\",\r\n");
             jsonByLoc.append("       \"Country\":\""+key.split("@")[2]+"\",\r\n");
+            jsonByLoc.append("       \"keywords\":"+wordMap.get(key).getTop10()+",\r\n");
             jsonByLoc.append("       \"Market value $m\":\""+countbyLoc.get(key)+"\",\r\n");
             jsonByLoc.append("       \"Turnover $m\":\""+countbyLoc.get(key)+"\",\n" +
                     "        \"Net income $m\":\""+countbyLoc.get(key)+"\",\n" +

@@ -5,9 +5,61 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
+import static classification.CateToJson.CateWithLoc.countTop10Words;
+
 public class CateToJson {
     public static class CateWithLoc{
+        String Sector;
+        String Name;
+        String SecNameLoc;
+        String Location;
+        HashMap<String ,Integer> WordsCount;
+        List<String> Top10 = new ArrayList<>();
+        CateWithLoc(String tmp){
+            Name = tmp.split("@")[1];
+            Sector = tmp.split("@")[0];
+            Location = tmp.split("@")[2];
+            SecNameLoc = tmp;
+            WordsCount = new HashMap<>();
+        }
+        public void AddWords(List<String> wordlist){
+            addWord(wordlist, WordsCount);
+        }
 
+        public String getTop10(){
+            StringBuffer tmp = new StringBuffer();
+            Top10 = countTop10Words(WordsCount);
+            tmp.append(Top10.toString().replace(", ","\",\"").replace("[","[\"").replace("]","\"]"));
+            return tmp.toString();
+        }
+
+
+        public static List<String> countTop10Words(HashMap<String,Integer> map){
+            List<String> top10 = new ArrayList<>();
+            List<Map.Entry<String,Integer>> list = new ArrayList<Map.Entry<String,Integer>>(map.entrySet());
+            Collections.sort(list,new Comparator<Map.Entry<String,Integer>>(){
+
+                public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
+                    return o2.getValue() - o1.getValue();  //降序
+                }
+            });
+
+            for (int i = 0; i < Math.min(10,list.size()); i++) {
+                top10.add(list.get(i).getKey());
+            }
+            return top10;
+        }
+        private static void addWord(List<String> wordlist, HashMap<String, Integer> wordsCount) {
+            for (String word:wordlist
+                    ) {
+                if (word.length()<=1) continue;
+                if (wordsCount.get(word)!=null){
+                    wordsCount.put(word, wordsCount.get(word) + 1);
+                }else {
+                    wordsCount.put(word,1);
+                }
+            }
+        }
     }
     public static class CateWithoutLoc{
         String Sector;
@@ -28,36 +80,13 @@ public class CateToJson {
             WordsCount = new HashMap<>();
         }
         public void AddWords(List<String> wordlist){
-            for (String word:wordlist
-                 ) {
-                if (word.length()<=1) continue;
-                if (WordsCount.get(word)!=null){
-                    WordsCount.put(word,WordsCount.get(word) + 1);
-                }else {
-                    WordsCount.put(word,1);
-                }
-            }
+            CateWithLoc.addWord(wordlist, WordsCount);
         }
-        public void countTop10Words(){
-            List<String> top10 = new ArrayList<>();
 
-            List<Map.Entry<String,Integer>> list = new ArrayList<Map.Entry<String,Integer>>(WordsCount.entrySet());
-            Collections.sort(list,new Comparator<Map.Entry<String,Integer>>(){
-
-                public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
-                    return o2.getValue() - o1.getValue();  //降序
-                }
-            });
-
-            for (int i = 0; i < Math.min(10,list.size()); i++) {
-                 top10.add(list.get(i).getKey());
-            }
-            Top10=top10;
-        }
 
         public String getTop10Words(){
             StringBuffer tmp = new StringBuffer();
-            countTop10Words();
+            Top10 = countTop10Words(WordsCount);
             tmp.append(Top10.toString().replace(", ","\",\"").replace("[","[\"").replace("]","\"]"));
             return tmp.toString();
         }
@@ -333,9 +362,35 @@ public class CateToJson {
             }
 
         }
-
         return wordsCount;
     }
+
+    public static HashMap CountWordsByLocation(Map<String ,Integer> map, List<disputes> disIn, Map<String,CateWithLoc> cateMap){
+        HashMap<String,Integer> wordsCount = new HashMap<>();
+        for (String key:map.keySet()
+                ) {
+            String name = new String();
+            String sector = new String();
+            String location = new String();
+            name = key.split("@")[1];
+            sector = key.split("@")[0];
+            location = key.split("@")[2];
+            for (disputes d:disIn
+                    ) {
+                if(name.equals(d.getName())&&sector.equals(d.getSector())&&location.equals(d.getLocation())){
+                    try {
+                        cateMap.get(key).AddWords(d.getWords());
+                    }catch (Exception e){
+                        System.out.println(e);
+                    }
+
+                }
+            }
+
+        }
+        return wordsCount;
+    }
+
     public static void main(String[] args) {
         String Categories = FileWrite.txt2String("data+cate.csv");
         List<disputes> dis = new ArrayList<>();
@@ -374,15 +429,22 @@ public class CateToJson {
         StringBuffer jsonBySec = new StringBuffer();
         StringBuffer jsonByLoc = new StringBuffer();
         HashMap<String,CateWithoutLoc> cateMapBySeC = new HashMap<>();
+        HashMap<String,CateWithLoc> cateMapByLoc = new HashMap<>();
         for (String key:countbySec.keySet()
              ) {
             cateMapBySeC.put(key,new CateWithoutLoc(key));
         }
         CountWordsBySector(countbySec,dis,cateMapBySeC);
+
+        for (String key:countbyLoc.keySet()
+                ) {
+            cateMapByLoc.put(key,new CateWithLoc(key));
+        }
+        CountWordsByLocation(countbyLoc,dis,cateMapByLoc);
 //        System.out.println(cateMapBySeC.get("民事@邻里纠纷").getTop10Words().get(1).length());
 
         WriteJson.writeWithSec(countbySec,cateMapBySeC);
-        WriteJson.writeWithLoc(countbyLoc);
+        WriteJson.writeWithLoc(countbyLoc,cateMapByLoc);
 
          System.out.println("end");
 //        for (String key:map.keySet()
