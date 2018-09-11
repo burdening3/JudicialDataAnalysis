@@ -3,7 +3,7 @@ modelDataAvailable([
     {
         "Sector":"民事",
         "Company":"噪音扰民纠纷",
-        "Market value":"1199",
+        "Disputes Times":"1199",
         // "Turnover $m":"1199",
         // "Net income $m":"1199",
         // "Total assets $m":"231 839,0",
@@ -16,7 +16,7 @@ modelDataAvailable([
     {
         "Sector":"民事",
         "Company":"安全责任事故纠纷",
-        "Market value":"47",
+        "Disputes Times":"47",
         // "Turnover $m":"47",
         // "Net income $m":"47",
         // "Total assets $m":"231 839,0",
@@ -29,7 +29,7 @@ modelDataAvailable([
     {
         "Sector":"房产",
         "Company":"房屋租赁纠纷",
-        "Market value":"999",
+        "Disputes Times":"999",
         // "Turnover $m":"999",
         // "Net income $m":"999",
         // "Total assets $m":"231 839,0",
@@ -42,7 +42,7 @@ modelDataAvailable([
     {
         "Sector":"民事",
         "Company":"人身损害赔偿纠纷",
-        "Market value":"220",
+        "Disputes Times":"220",
         // "Turnover $m":"220",
         // "Net income $m":"220",
         // "Total assets $m":"231 839,0",
@@ -55,7 +55,7 @@ modelDataAvailable([
     {
         "Sector":"房产",
         "Company":"物业管理纠纷",
-        "Market value":"1017",
+        "Disputes Times":"1017",
         // "Turnover $m":"1017",
         // "Net income $m":"1017",
         // "Total assets $m":"231 839,0",
@@ -68,7 +68,7 @@ modelDataAvailable([
     {
         "Sector":"民事",
         "Company":"污水漏水纠纷",
-        "Market value":"3368",
+        "Disputes Times":"3368",
         // "Turnover $m":"3368",
         // "Net income $m":"3368",
         // "Total assets $m":"231 839,0",
@@ -81,7 +81,7 @@ modelDataAvailable([
     {
         "Sector":"劳动",
         "Company":"离职纠纷",
-        "Market value":"108",
+        "Disputes Times":"108",
         // "Turnover $m":"108",
         // "Net income $m":"108",
         // "Total assets $m":"231 839,0",
@@ -94,7 +94,7 @@ modelDataAvailable([
     {
         "Sector":"民事",
         "Company":"借贷",
-        "Market value":"237",
+        "Disputes Times":"237",
         // "Turnover $m":"237",
         // "Net income $m":"237",
         // "Total assets $m":"231 839,0",
@@ -107,7 +107,7 @@ modelDataAvailable([
     {
         "Sector":"医患",
         "Company":"医疗纠纷",
-        "Market value":"100",
+        "Disputes Times":"100",
         // "Turnover $m":"100",
         // "Net income $m":"100",
         // "Total assets $m":"231 839,0",
@@ -120,7 +120,7 @@ modelDataAvailable([
     {
         "Sector":"劳动",
         "Company":"劳动合同纠纷",
-        "Market value":"662",
+        "Disputes Times":"662",
         // "Turnover $m":"662",
         // "Net income $m":"662",
         // "Total assets $m":"231 839,0",
@@ -133,7 +133,7 @@ modelDataAvailable([
     {
         "Sector":"民事",
         "Company":"违章搭建纠纷",
-        "Market value":"134",
+        "Disputes Times":"134",
         // "Turnover $m":"134",
         // "Net income $m":"134",
         // "Total assets $m":"231 839,0",
@@ -146,7 +146,7 @@ modelDataAvailable([
     {
         "Sector":"民事",
         "Company":"邻里纠纷",
-        "Market value":"4072",
+        "Disputes Times":"4072",
         // "Turnover $m":"4072",
         // "Net income $m":"4072",
         // "Total assets $m":"231 839,0",
@@ -159,7 +159,7 @@ modelDataAvailable([
     {
         "Sector":"民事",
         "Company":"家庭纠纷",
-        "Market value":"178",
+        "Disputes Times":"178",
         // "Turnover $m":"178",
         // "Net income $m":"178",
         // "Total assets $m":"231 839,0",
@@ -172,7 +172,7 @@ modelDataAvailable([
     {
         "Sector":"房产",
         "Company":"山林土地纠纷",
-        "Market value":"106",
+        "Disputes Times":"106",
         // "Turnover $m":"106",
         // "Net income $m":"106",
         // "Total assets $m":"231 839,0",
@@ -185,7 +185,7 @@ modelDataAvailable([
     {
         "Sector":"消费",
         "Company":"服务类消费纠纷",
-        "Market value":"44",
+        "Disputes Times":"44",
         // "Turnover $m":"44",
         // "Net income $m":"44",
         // "Total assets $m":"231 839,0",
@@ -198,7 +198,7 @@ modelDataAvailable([
     {
         "Sector":"民事",
         "Company":"采光纠纷",
-        "Market value":"73",
+        "Disputes Times":"73",
         // "Turnover $m":"73",
         // "Net income $m":"73",
         // "Total assets $m":"231 839,0",
@@ -211,7 +211,7 @@ modelDataAvailable([
     {
         "Sector":"消费",
         "Company":"商品问题纠纷",
-        "Market value":"130",
+        "Disputes Times":"130",
         // "Turnover $m":"130",
         // "Net income $m":"130",
         // "Total assets $m":"231 839,0",
@@ -224,7 +224,7 @@ modelDataAvailable([
     {
         "Sector":"民事",
         "Company":"财产损害赔偿纠纷",
-        "Market value":"137",
+        "Disputes Times":"137",
         // "Turnover $m":"137",
         // "Net income $m":"137",
         // "Total assets $m":"231 839,0",
@@ -237,7 +237,7 @@ modelDataAvailable([
     {
         "Sector":"民事",
         "Company":"遗产继承纠纷",
-        "Market value":"508",
+        "Disputes Times":"508",
         // "Turnover $m":"508",
         // "Net income $m":"508",
         // "Total assets $m":"231 839,0",
@@ -250,7 +250,7 @@ modelDataAvailable([
     {
         "Sector":"消费",
         "Company":"旅行消费纠纷",
-        "Market value":"956",
+        "Disputes Times":"956",
         // "Turnover $m":"956",
         // "Net income $m":"956",
         // "Total assets $m":"231 839,0",
@@ -263,7 +263,7 @@ modelDataAvailable([
     {
         "Sector":"民事",
         "Company":"其他民事",
-        "Market value":"422",
+        "Disputes Times":"422",
         // "Turnover $m":"422",
         // "Net income $m":"422",
         // "Total assets $m":"231 839,0",
@@ -276,7 +276,7 @@ modelDataAvailable([
     {
         "Sector":"涉校",
         "Company":"学校相关纠纷",
-        "Market value":"45",
+        "Disputes Times":"45",
         // "Turnover $m":"45",
         // "Net income $m":"45",
         // "Total assets $m":"231 839,0",
@@ -289,7 +289,7 @@ modelDataAvailable([
     {
         "Sector":"法律援助",
         "Company":"法律援助",
-        "Market value":"1",
+        "Disputes Times":"1",
         // "Turnover $m":"1",
         // "Net income $m":"1",
         // "Total assets $m":"231 839,0",
@@ -302,7 +302,7 @@ modelDataAvailable([
     {
         "Sector":"治安",
         "Company":"治安案件",
-        "Market value":"2437",
+        "Disputes Times":"2437",
         // "Turnover $m":"2437",
         // "Net income $m":"2437",
         // "Total assets $m":"231 839,0",
@@ -315,7 +315,7 @@ modelDataAvailable([
     {
         "Sector":"民事",
         "Company":"宠物纠纷",
-        "Market value":"403",
+        "Disputes Times":"403",
         // "Turnover $m":"403",
         // "Net income $m":"403",
         // "Total assets $m":"231 839,0",
@@ -328,7 +328,7 @@ modelDataAvailable([
     {
         "Sector":"交通",
         "Company":"交通事故纠纷",
-        "Market value":"6590",
+        "Disputes Times":"6590",
         // "Turnover $m":"6590",
         // "Net income $m":"6590",
         // "Total assets $m":"231 839,0",
@@ -341,7 +341,7 @@ modelDataAvailable([
     {
         "Sector":"民事",
         "Company":"婚姻纠纷",
-        "Market value":"896",
+        "Disputes Times":"896",
         // "Turnover $m":"896",
         // "Net income $m":"896",
         // "Total assets $m":"231 839,0",
@@ -354,7 +354,7 @@ modelDataAvailable([
     {
         "Sector":"交通",
         "Company":"违停纠纷",
-        "Market value":"76",
+        "Disputes Times":"76",
         // "Turnover $m":"76",
         // "Net income $m":"76",
         // "Total assets $m":"231 839,0",
@@ -367,7 +367,7 @@ modelDataAvailable([
     {
         "Sector":"劳动",
         "Company":"知识产权",
-        "Market value":"2",
+        "Disputes Times":"2",
         // "Turnover $m":"2",
         // "Net income $m":"2",
         // "Total assets $m":"231 839,0",
@@ -380,7 +380,7 @@ modelDataAvailable([
     {
         "Sector":"民事",
         "Company":"赡养纠纷",
-        "Market value":"143",
+        "Disputes Times":"143",
         // "Turnover $m":"143",
         // "Net income $m":"143",
         // "Total assets $m":"231 839,0",
@@ -393,7 +393,7 @@ modelDataAvailable([
     {
         "Sector":"房产",
         "Company":"征地拆迁纠纷",
-        "Market value":"461",
+        "Disputes Times":"461",
         // "Turnover $m":"461",
         // "Net income $m":"461",
         // "Total assets $m":"231 839,0",
@@ -406,7 +406,7 @@ modelDataAvailable([
     {
         "Sector":"劳动",
         "Company":"农民工相关纠纷",
-        "Market value":"2",
+        "Disputes Times":"2",
         // "Turnover $m":"2",
         // "Net income $m":"2",
         // "Total assets $m":"231 839,0",
@@ -419,7 +419,7 @@ modelDataAvailable([
     {
         "Sector":"民事",
         "Company":"安全保障义务责任纠纷",
-        "Market value":"12",
+        "Disputes Times":"12",
         // "Turnover $m":"12",
         // "Net income $m":"12",
         // "Total assets $m":"231 839,0",
@@ -432,7 +432,7 @@ modelDataAvailable([
     {
         "Sector":"劳动",
         "Company":"拖欠工资纠纷",
-        "Market value":"28",
+        "Disputes Times":"28",
         // "Turnover $m":"28",
         // "Net income $m":"28",
         // "Total assets $m":"231 839,0",
@@ -445,7 +445,7 @@ modelDataAvailable([
     {
         "Sector":"房产",
         "Company":"房屋宅基地纠纷",
-        "Market value":"49",
+        "Disputes Times":"49",
         // "Turnover $m":"49",
         // "Net income $m":"49",
         // "Total assets $m":"231 839,0",

@@ -29,7 +29,7 @@ public class CateToJson {
         public String getTop10(){
             StringBuffer tmp = new StringBuffer();
             Top10 = countTop10Words(WordsCount);
-            tmp.append(Top10.toString().replace(", ","\",\"").replace("[","[\"").replace("]","\"]"));
+            tmp.append(Top10.toString().replace("]","\r\n\t\t\t\t}").replace("[","{").replace(", ",",\r\n\t\t\t"));
             return tmp.toString();
         }
 
@@ -45,7 +45,7 @@ public class CateToJson {
             });
 
             for (int i = 0; i < Math.min(10,list.size()); i++) {
-                top10.add(list.get(i).getKey());
+                top10.add("\""+list.get(i).getKey()+"\":\""+list.get(i).getValue()+"\"");
             }
             return top10;
         }
@@ -87,7 +87,7 @@ public class CateToJson {
         public String getTop10Words(){
             StringBuffer tmp = new StringBuffer();
             Top10 = countTop10Words(WordsCount);
-            tmp.append(Top10.toString().replace(", ","\",\"").replace("[","[\"").replace("]","\"]"));
+            tmp.append(Top10.toString().replace("]","\r\n\t\t\t\t}").replace("[","\r\n\t\t\t\t{").replace(", ",",\r\n\t\t\t\t"));
             return tmp.toString();
         }
 

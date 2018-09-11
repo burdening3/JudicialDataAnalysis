@@ -11,6 +11,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/WordsClassify$CateToJson.ic" NAME="CateToJson Coverage Results" MODIFIED="1536661297194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>classification.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="misc.xml" pinned="false" current-in-tab="false">
@@ -18,23 +23,23 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="CateToJson.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CateToJson.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/classification/CateToJson.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="367" column="128" lean-forward="true" selection-start-line="367" selection-start-column="128" selection-end-line="367" selection-end-column="128" />
+            <state relative-caret-position="169">
+              <caret line="448" selection-start-line="448" selection-end-line="448" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
-                <element signature="e#737#738#0" expanded="true" />
-                <element signature="method#countTop10Words#0;class#CateWithLoc#0;class#CateToJson#0" />
-                <element signature="e#1220#1247#0" expanded="true" />
-                <element signature="e#1822#1823#0" expanded="true" />
-                <element signature="e#1887#1888#0" expanded="true" />
+                <element signature="e#1290#1317#0" expanded="true" />
+                <element signature="e#1369#1609#0" expanded="true" />
+                <element signature="e#1608#1609#0" expanded="true" />
                 <element signature="class#disputes#0;class#CateToJson#0" />
                 <element signature="method#disputes#0;class#disputes#0;class#CateToJson#0" />
                 <element signature="method#sortDis#0;class#disputes#0;class#CateToJson#0" />
                 <element signature="method#sortByRules#0;class#disputes#0;class#CateToJson#0" />
+                <element signature="e#6233#6260#0" expanded="true" />
+                <element signature="e#6320#6576#0" expanded="true" />
+                <element signature="e#6575#6576#0" expanded="true" />
                 <element signature="method#sortCivil#0;class#disputes#0;class#CateToJson#0" />
                 <element signature="method#ReadMap#0;class#CateToJson#0" />
                 <element signature="method#CountBySector#0;class#CateToJson#0" />
@@ -46,17 +51,17 @@
       <file leaf-file-name="countbyLoc.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/countbyLoc.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1288">
-              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="21">
+              <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="countbySec.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="countbySec.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/countbySec.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="480" column="73" selection-start-line="480" selection-start-column="73" selection-end-line="480" selection-end-column="73" />
+            <state relative-caret-position="378">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -64,43 +69,10 @@
       <file leaf-file-name="WriteJson.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/classification/WriteJson.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+            <state relative-caret-position="126">
+              <caret line="15" column="88" selection-start-line="15" selection-start-column="88" selection-end-line="15" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/StringBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1541">
-              <caret line="90" selection-start-line="90" selection-end-line="90" />
-              <folding>
-                <element signature="e#2974#2975#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Preconditions.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5819">
-              <caret line="283" selection-start-line="283" selection-end-line="283" />
-              <folding>
-                <element signature="e#10613#10614#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,7 +81,7 @@
       <file leaf-file-name="SortWords.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/classification/SortWords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
+            <state relative-caret-position="294">
               <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
             </state>
           </provider>
@@ -118,7 +90,7 @@
       <file leaf-file-name="FileWrite.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/classification/FileWrite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="989">
+            <state relative-caret-position="466">
               <caret line="43" column="69" selection-start-line="43" selection-start-column="69" selection-end-line="43" selection-end-column="69" />
             </state>
           </provider>
@@ -166,8 +138,10 @@
         <option value="$PROJECT_DIR$/src/main/java/AAA.java" />
         <option value="$PROJECT_DIR$/src/main/java/classification/Main.java" />
         <option value="$PROJECT_DIR$/keyMap.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/classification/WriteJson.java" />
+        <option value="$PROJECT_DIR$/countbyLoc.txt" />
         <option value="$PROJECT_DIR$/src/main/java/classification/CateToJson.java" />
+        <option value="$PROJECT_DIR$/countbySec.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/classification/WriteJson.java" />
       </list>
     </option>
   </component>
@@ -203,9 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,10 +185,38 @@
               <item name="WordsClassify" type="b2602c69:ProjectViewProjectNode" />
               <item name="Classify" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WordsClassify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Classify" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WordsClassify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Classify" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WordsClassify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Classify" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WordsClassify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Classify" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classification" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -377,43 +377,45 @@
       <workItem from="1536588045432" duration="24000" />
       <workItem from="1536588145519" duration="49000" />
       <workItem from="1536594149597" duration="2120000" />
+      <workItem from="1536651439899" duration="4372000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108228000" />
+    <option name="totallyTimeSpent" value="112600000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32785603" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32731137" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34898278" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34856537" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19316375" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19270833" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32942098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2793427" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4070138" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32942098" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +426,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="75" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/classification/CateToJson.java</url>
+          <line>448</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="77" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -596,44 +606,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AAA.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/classification/SampleKeyWords.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/classification/FileWrite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="43" column="69" selection-start-line="43" selection-start-column="69" selection-end-line="43" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/text/SimpleDateFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5657">
-          <caret line="595" column="11" selection-start-line="595" selection-start-column="11" selection-end-line="595" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/AbstractStringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="990" selection-start-line="990" selection-end-line="990" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/StringBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="486" selection-start-line="486" selection-end-line="486" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5819">
-          <caret line="283" selection-start-line="283" selection-end-line="283" />
-          <folding>
-            <element signature="e#10613#10614#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/text/SimpleDateFormat.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/AbstractStringBuilder.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/StringBuffer.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/ArrayList.java" />
     <entry file="file://$PROJECT_DIR$/keyMap.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1058">
@@ -643,7 +619,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/classification/SortWords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
+        <state relative-caret-position="294">
           <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
         </state>
       </provider>
@@ -662,70 +638,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/StringBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/countbyLoc.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="21">
+          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/StringBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/classification/FileWrite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1541">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="466">
+          <caret line="43" column="69" selection-start-line="43" selection-start-column="69" selection-end-line="43" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classification/WriteJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="15" column="88" selection-start-line="15" selection-start-column="88" selection-end-line="15" selection-end-column="88" />
           <folding>
-            <element signature="e#2974#2975#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classification/WriteJson.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/classification/CateToJson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        <state relative-caret-position="169">
+          <caret line="448" selection-start-line="448" selection-end-line="448" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1290#1317#0" expanded="true" />
+            <element signature="e#1369#1609#0" expanded="true" />
+            <element signature="e#1608#1609#0" expanded="true" />
+            <element signature="class#disputes#0;class#CateToJson#0" />
+            <element signature="method#disputes#0;class#disputes#0;class#CateToJson#0" />
+            <element signature="method#sortDis#0;class#disputes#0;class#CateToJson#0" />
+            <element signature="method#sortByRules#0;class#disputes#0;class#CateToJson#0" />
+            <element signature="e#6233#6260#0" expanded="true" />
+            <element signature="e#6320#6576#0" expanded="true" />
+            <element signature="e#6575#6576#0" expanded="true" />
+            <element signature="method#sortCivil#0;class#disputes#0;class#CateToJson#0" />
+            <element signature="method#ReadMap#0;class#CateToJson#0" />
+            <element signature="method#CountBySector#0;class#CateToJson#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/countbySec.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="480" column="73" selection-start-line="480" selection-start-column="73" selection-end-line="480" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/countbyLoc.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1288">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classification/CateToJson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="367" column="128" lean-forward="true" selection-start-line="367" selection-start-column="128" selection-end-line="367" selection-end-column="128" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="method#countTop10Words#0;class#CateWithLoc#0;class#CateToJson#0" />
-            <element signature="e#1220#1247#0" expanded="true" />
-            <element signature="e#1822#1823#0" expanded="true" />
-            <element signature="e#1887#1888#0" expanded="true" />
-            <element signature="class#disputes#0;class#CateToJson#0" />
-            <element signature="method#disputes#0;class#disputes#0;class#CateToJson#0" />
-            <element signature="method#sortDis#0;class#disputes#0;class#CateToJson#0" />
-            <element signature="method#sortByRules#0;class#disputes#0;class#CateToJson#0" />
-            <element signature="method#sortCivil#0;class#disputes#0;class#CateToJson#0" />
-            <element signature="method#ReadMap#0;class#CateToJson#0" />
-            <element signature="method#CountBySector#0;class#CateToJson#0" />
-          </folding>
+        <state relative-caret-position="378">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>

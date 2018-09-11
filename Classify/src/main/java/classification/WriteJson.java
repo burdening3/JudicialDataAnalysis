@@ -8,19 +8,13 @@ public class WriteJson {
         StringBuffer jsonByLoc = new StringBuffer();
         for (String key:countbyLoc.keySet()
                 ) {
+            if (key.contains("null")) continue;
             jsonByLoc.append("\r\n{\r\n       \"Sector\":\""+key.split("@")[0]+"\",\r\n");
             jsonByLoc.append("       \"Company\":\""+key.split("@")[1]+"\",\r\n");
             jsonByLoc.append("       \"Country\":\""+key.split("@")[2]+"\",\r\n");
             jsonByLoc.append("       \"keywords\":"+wordMap.get(key).getTop10()+",\r\n");
-            jsonByLoc.append("       \"Market value $m\":\""+countbyLoc.get(key)+"\",\r\n");
-            jsonByLoc.append("       \"Turnover $m\":\""+countbyLoc.get(key)+"\",\n" +
-                    "        \"Net income $m\":\""+countbyLoc.get(key)+"\",\n" +
-                    "        \"Total assets $m\":\"231 839,0\",\n" +
-                    "        \"Employees\":\"92 600\",\n" +
-                    "        \"Price $\":\"124,4\",\n" +
-                    "        \"P/e ratio\":\"19,3\",\n" +
-                    "        \"Dividend yield (%)\":\"1,5\",\n" +
-                    "        \"Year End\":\"2014-09-27\"\r\n},");
+            jsonByLoc.append("       \"Disputes Times\":\""+countbyLoc.get(key)+"\"\r\n}");
+
 
         }
         FileWrite.writeFile("countbyLoc.txt",jsonByLoc.toString());
@@ -34,15 +28,7 @@ public class WriteJson {
             jsonBySec.append("       \"Company\":\""+key.split("@")[1]+"\",\r\n");
 //            jsonBySec.append("       \"Country\":\""+countbySec.get(key)+"\",\r\n");
             jsonBySec.append("       \"keywords\":"+wordMap.get(key).getTop10Words()+",\r\n");
-            jsonBySec.append("       \"Market value $m\":\""+countbySec.get(key)+"\",\r\n");
-            jsonBySec.append("       \"Turnover $m\":\""+countbySec.get(key)+"\",\n" +
-                    "        \"Net income $m\":\""+countbySec.get(key)+"\",\n" +
-                    "        \"Total assets $m\":\"231 839,0\",\n" +
-                    "        \"Employees\":\"92 600\",\n" +
-                    "        \"Price $\":\"124,4\",\n" +
-                    "        \"P/e ratio\":\"19,3\",\n" +
-                    "        \"Dividend yield (%)\":\"1,5\",\n" +
-                    "        \"Year End\":\"2014-09-27\"\r\n},");
+            jsonBySec.append("       \"Disputes Times\":\""+countbySec.get(key)+"\"\r\n}");
 
         }
         jsonBySec.deleteCharAt(jsonBySec.length()-1);

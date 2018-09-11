@@ -238,7 +238,7 @@
 
         var metadata = {
           fields: {
-            "Market value": { preprocessing: stringToNumber, type: "continuous", formatter: numberToStringWithUnit(0) },
+            "Disputes Times": { preprocessing: stringToNumber, type: "continuous", formatter: numberToStringWithUnit(0) },
             // "Turnover": { preprocessing: stringToNumber, type: "continuous", formatter: numberToStringWithUnit(0) },
             // "Net income": { preprocessing: stringToNumber, type: "continuous", formatter: numberToStringWithUnit(0) },
             // "Total assets": { preprocessing: stringToNumber, type: "continuous", formatter: numberToStringWithUnit(0) },
@@ -367,7 +367,7 @@
 
           sizing: {
             fields: [
-              { name: "Market value", config: { fn: "" } },
+              { name: "Disputes Times", config: { fn: "" } },
               // { name: "Turnover", config: { fn: "" } },
               // { name: "Net income", config: { fn: "" } },
               // { name: "Total assets", config: { fn: "" } },
@@ -379,7 +379,7 @@
 
           coloring: {
             fields: [
-              { name: "Market value", config: { palette: "tol-dv", fn: "pow(.33)" } },
+              { name: "Disputes Times", config: { palette: "tol-dv", fn: "pow(.33)" } },
               // { name: "Turnover", config: { palette: "tol-dv", fn: "sqrt" } },
               // { name: "Net income", config: { palette: "tol-dv", fn: "sqrt" } },
               // { name: "Total assets", config: { palette: "tol-dv", fn: "pow(.33)" } },
@@ -1093,8 +1093,8 @@
         //     </div>\
         //   </h2>\
         //   <dl class="right">\
-        //     <dt>Market value</dt>\
-        //     <dd><%= company["Market value"] %></dd>\
+        //     <dt>Disputes Times</dt>\
+        //     <dd><%= company["Disputes Times"] %></dd>\
         //     <dt>Turnover</dt>\
         //     <dd><%= company["Turnover"] %></dd>\
         //     <dt>Net income</dt>\
@@ -1123,8 +1123,8 @@
             </div>\
           </h2>\
           <dl class="right">\
-            <dt>Market value</dt>\
-            <dd><%= company["Market value"] %></dd>\
+            <dt>Disputes Times</dt>\
+            <dd><%= company["Disputes Times"] %></dd>\
           </dl>\
         </div>', { variable: "company" });
       };
@@ -1179,7 +1179,7 @@
         var rankChange = company["Rank change"];
 
         var data = {};
-        [ "Market value", "Turnover", "Net income", "Total assets",
+        [ "Disputes Times", "Turnover", "Net income", "Total assets",
           "Employees", "Price", "P/e ratio", "Dividend yield" ].forEach(function (name) {
               var value = company[name];
               data[name] = _.isUndefined(value) || _.isNull(value) ? "n/a" : metadata.dataset.fields[name].formatter(value);
@@ -1357,8 +1357,8 @@
           levels: [
             "Sector", ""
           ],
-          sizing: { field: "Market value", configs: _.cloneDeep(metadata.dataset.sizing.fields) },
-          coloring: { field: "Market value", configs: _.cloneDeep(metadata.dataset.coloring.fields) },
+          sizing: { field: "Disputes Times", configs: _.cloneDeep(metadata.dataset.sizing.fields) },
+          coloring: { field: "Disputes Times", configs: _.cloneDeep(metadata.dataset.coloring.fields) },
           layout: "rectangular",
           container: "rectangular"
         };
@@ -1443,7 +1443,7 @@
             // var currency = usd ? "$" : "£";
             ft500.forEach(function (company) {
               // 这里修改字段名
-              // company["Market value"] = company["Market value " + currency + "m"];
+              // company["Disputes Times"] = company["Disputes Times " + currency + "m"];
               // company["Turnover"] = company["Turnover " + currency + "m"];
               // company["Net income"] = company["Net income " + currency + "m"];
               // company["Total assets"] = company["Total assets " + currency + "m"];
@@ -1457,8 +1457,8 @@
             });
 
             // 这里修改右侧单位
-            // metadata.dataset.fields["Market value"].unit = currency + "m";
-            metadata.dataset.fields["Market value"].unit = "起";
+            // metadata.dataset.fields["Disputes Times"].unit = currency + "m";
+            metadata.dataset.fields["Disputes Times"].unit = "起";
             // metadata.dataset.fields["Turnover"].unit = currency + "m";
             // metadata.dataset.fields["Net income"].unit = currency + "m";
             // metadata.dataset.fields["Total assets"].unit = currency + "m";
