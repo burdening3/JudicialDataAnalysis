@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FoamTree Quick Start</title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+<div id="visualization" style="width: 800px; height: 600px"></div>
+<input  type="button"  onclick=changeTree() value="test"/><br>
+
+<script type="text/javascript" src="../jquery-3.3.1.min.js"></script>
+<script src="../carrotsearch.foamtree.js"></script>
+<script>
+    var foamtree = new CarrotSearchFoamTree({
+        id: "visualization",
+        dataObject: {
+            groups: [
+                { label: "Try" }, { label: "Selecting" },
+                { label: "Or" }, { label: "Exposing" },
+                { label: "Some" }, { label: "Group" },
+                { label: "And" }, { label: "Watch" },
+                { label: "The" }, { label: "Console" },
+            ]
+        }
+    });
+    foamtree.on("groupSelectionChanged", function (info) {
+        window.console.log("selected", info);
+    });
+    foamtree.on("groupExposureChanged", function(info) {
+        window.console.log("exposed 1", info);
+    });
+    foamtree.on("groupExposureChanged", function(info) {
+        window.console.log("exposed 2", info);
+    });
+    function changeTree() {
+        alert("aaa")
+        // foamtree.set({
+        //     groupBorderWidth: 20,
+        //     groupInsetWidth: 40,
+        //     groupStrokeWidth: 10
+        // });
+        foamtree.set({
+            dataObject: { groups: [ { label: "loading..." }, { label: "Please wait" } ] },
+            fadeDuration: 500
+        });
+
+        $.ajax({
+            url: "../demos/assets/data/census.json",
+            dataType: "json",
+            success: function(data) {
+                var states = data.groups;
+
+                var races = [
+                    { label: "Hispanic", prop: "PctHisp" },
+                    { label: "White",    prop: "PctNonHispWhite" },
+                    { label: "Black",    prop: "PctBlack" },
+                    { label: "Indian",   prop: "PctAmInd" },
+                    { label: "Asian",    prop: "PctAsian" },
+                    { label: "Hawaiian", prop: "PctNatHawOth" }
+                ];
+
+                var popByRace = states.reduce(function (index, state) {
+                    races.forEach(function (spec) {
+                        var pop = state[spec.prop] * state.Pop;
+                        index[spec.prop].total += pop;
+                        index[spec.prop].min = Math.min(index[spec.prop].min, state[spec.prop]);
+                        index[spec.prop].max = Math.max(index[spec.prop].max, state[spec.prop]);
+                    });
+                    return index;
+                }, races.reduce(function (index, spec) {
+                    index[spec.prop] = { total: 0, min: Number.MAX_VALUE, max: 0 };
+                    return index;
+                }, { }));
+
+                var groups = races.map(function(spec) {
+                    return {
+                        label: spec.label,
+                        weight: popByRace[spec.prop].total,
+                        groups: states.map(function(state) {
+                            return {
+                                label: state.Placename,
+                                weight: (state[spec.prop] - popByRace[spec.prop].min) /
+                                popByRace[spec.prop].max
+                            };
+                        })
+                    };
+                });
+
+                foamtree.set({
+                    dataObject: { groups: groups },
+                    rolloutDuration: 3000
+                });
+            }
+        });
+        timeout = window.setTimeout(foamtree.redraw, 1000);
+    }
+</script>
+</body>
+</html>
