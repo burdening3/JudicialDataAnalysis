@@ -3,7 +3,7 @@ modelDataAvailable([
     {
         "Sector":"民事",
         "Company":"噪音扰民纠纷",
-        "Disputes Times":"11999",
+        "Disputes Times":"1199",
         // "Turnover $m":"1199",
         // "Net income $m":"1199",
         // "Total assets $m":"231 839,0",
