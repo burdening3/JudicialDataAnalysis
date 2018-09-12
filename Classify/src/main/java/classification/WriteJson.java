@@ -13,10 +13,11 @@ public class WriteJson {
             jsonByLoc.append("       \"Company\":\""+key.split("@")[1]+"\",\r\n");
             jsonByLoc.append("       \"Country\":\""+key.split("@")[2]+"\",\r\n");
             jsonByLoc.append("       \"keywords\":"+wordMap.get(key).getTop10()+",\r\n");
-            jsonByLoc.append("       \"Disputes Times\":\""+countbyLoc.get(key)+"\"\r\n}");
+            jsonByLoc.append("       \"Disputes Times\":\""+countbyLoc.get(key)+"\"\r\n},");
 
 
         }
+        jsonByLoc.deleteCharAt(jsonByLoc.length()-1);
         FileWrite.writeFile("countbyLoc.txt",jsonByLoc.toString());
     }
     public  static void writeWithSec(Map<String,Integer> countbySec, HashMap<String,CateToJson.CateWithoutLoc> wordMap){
@@ -28,7 +29,7 @@ public class WriteJson {
             jsonBySec.append("       \"Company\":\""+key.split("@")[1]+"\",\r\n");
 //            jsonBySec.append("       \"Country\":\""+countbySec.get(key)+"\",\r\n");
             jsonBySec.append("       \"keywords\":"+wordMap.get(key).getTop10Words()+",\r\n");
-            jsonBySec.append("       \"Disputes Times\":\""+countbySec.get(key)+"\"\r\n}");
+            jsonBySec.append("       \"Disputes Times\":\""+countbySec.get(key)+"\"\r\n},");
 
         }
         jsonBySec.deleteCharAt(jsonBySec.length()-1);

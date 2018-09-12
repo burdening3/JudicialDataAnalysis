@@ -187,6 +187,7 @@ public class CateToJson {
                     }
                 });
                 if (list.size()>=2 && list.get(0).getKey().equals("民事@邻里纠纷")) list.remove(0);
+                if (list.size()>=2 && list.get(0).getKey().equals("交通事故纠纷@一般交通事故")) list.remove(0);
                 Sector = list.get(0).getKey().split("@")[0];
                 Name = list.get(0).getKey().split("@")[1];
 

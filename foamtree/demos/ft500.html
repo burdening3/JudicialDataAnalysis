@@ -149,49 +149,8 @@
 
         <div class="ui divider"></div>
 
-        <h3>What's in the code?</h3>
 
-        <ul class="code">
-          <li>
-            Converting a custom FT500 JSON into <a href="../api/index.html#dataObject">FoamTree JSON</a>.
-          </li>
 
-          <li>
-            Using the <code><a href="../api/index.html#layout">layout</a></code> option to choose between rectangular and
-            polygonal treemap layouts.
-          </li>
-
-          <li>
-            Using the <code><a href="../api/index.html#stacking">stacking</a></code> option to enable "flattened" view
-            of the treemap. Using the <code>descriptionGroupSize</code> and <code>descriptionGroupMinHeight</code>
-            options to configure the size of the parent group description fragment depending on the layout.
-          </li>
-
-          <li>
-            Using <code>groupLabelLayoutDecorator</code> to
-            draw labels of description groups in bold font.
-          </li>
-
-          <li>
-            Using <code><a href="../api/index.html#groupColorDecorator">groupColorDecorator</a></code> to
-            draw groups in custom colors. The color palettes are generated using <a target="_blank"
-              href="https://github.com/google/palette.js/tree/master">palette.js</a>.
-          </li>
-
-          <li>
-            Using the <code><a href="../api/index.html#imageData">imageData</a></code> along with
-            <a target="_blank" href="https://github.com/eligrey/FileSaver.js/">FileSaver.js</a> and
-            <a target="_blank" href="https://github.com/beatgammit/base64-js">base64.js</a> to save the visualization
-            image as a JPEG image.
-          </li>
-
-          <li>
-            Using the <code><a href="../api/index.html#onGroupHover">onGroupHover</a></code> and
-            <code><a href="../api/index.html#onGroupSelectionChanging">onGroupSelectionChanging</a></code> events
-            to get information about companies being hovered on and selected, so that their details can be presented
-            in the right-hand side panel.
-          </li>
-        </ul>
       </div>
     </div>
 
@@ -1428,12 +1387,12 @@
         });
 
         var datasetsChoice = new DatasetChoice($(".datasets.form"), [
-          { label: "FT500 Global ", dataset: "ft500-global.js"},
-          { label: "FT500 US", dataset: "ft500-us.js"},
-          { label: "FT500 Europe", dataset: "ft500-europe.js"},
-          { label: "FT500 UK", dataset: "ft500-uk.js"},
-          { label: "FT500 Japan", dataset: "ft500-japan.js"},
-          { label: "FT500 Emerging markets", dataset: "ft500-emerging.js"}
+          { label: "按类型划分 ", dataset: "ft500-global.js"},
+          { label: "按地区划分", dataset: "ft500-us.js"},
+          // { label: "FT500 Europe", dataset: "ft500-europe.js"},
+          // { label: "FT500 UK", dataset: "ft500-uk.js"},
+          // { label: "FT500 Japan", dataset: "ft500-japan.js"},
+          // { label: "FT500 Emerging markets", dataset: "ft500-emerging.js"}
         ], function (dataset) {
           // Load, convert and visualize the data
           JSONP.load("assets/data/" + dataset, "modelDataAvailable", function (ft500) {
