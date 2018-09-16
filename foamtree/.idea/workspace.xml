@@ -13,6 +13,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="ft500-global.js" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/demos/assets/data/ft500-global.js">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="261">
+                    <caret line="647" column="27" lean-forward="true" selection-start-line="647" selection-start-column="27" selection-end-line="647" selection-end-column="27" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-434292248">
       <usages-collector id="statistics.lifecycle.project">
@@ -68,20 +87,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demos/ft500.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1135">
               <caret line="233" column="43" selection-start-line="233" selection-start-column="43" selection-end-line="233" selection-end-column="43" />
+=======
+      <file leaf-file-name="ft500.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demos/ft500.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="1392" column="58" lean-forward="true" selection-start-line="1392" selection-start-column="58" selection-end-line="1392" selection-end-column="58" />
+              <folding>
+                <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#218#224#0" expanded="true" />
+                <element signature="e#224#230#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+>>>>>>> 4b68512d469ae866d9e00362cfb34fad8dbc557c
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demos/assets/data/ft500-global.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
               <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+=======
+      <file leaf-file-name="ft500-us.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demos/assets/data/ft500-us.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="7771" column="27" lean-forward="true" selection-start-line="7771" selection-start-column="27" selection-end-line="7771" selection-end-column="27" />
+>>>>>>> 4b68512d469ae866d9e00362cfb34fad8dbc557c
             </state>
           </provider>
         </entry>
@@ -89,8 +135,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demos/external-interaction.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1219">
               <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+=======
+            <state relative-caret-position="547">
+              <caret line="116" column="43" selection-start-line="116" selection-start-column="43" selection-end-line="116" selection-end-column="43" />
+>>>>>>> 4b68512d469ae866d9e00362cfb34fad8dbc557c
             </state>
           </provider>
         </entry>
@@ -115,11 +166,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bank</find>
-      <find>Banks</find>
-      <find>// metadata.dataset.fields[&quot;Dividend yield&quot;].unit = &quot;%&quot;;</find>
       <find>Dividend</find>
-      <find>&quot;Turnover $m&quot;</find>
+      <find />
       <find>N\/R</find>
       <find>modelDataAvailable</find>
       <find>updateModelColors</find>
@@ -129,28 +177,31 @@
       <find>hammer</find>
       <find>metadata</find>
       <find>price</find>
-      <find>FT500 Emerging markets</find>
+      <find />
       <find>sizing</find>
       <find>Turnover</find>
       <find>this.model</find>
       <find>const</find>
-      <find>this.model = {</find>
+      <find />
       <find>template</find>
       <find>click</find>
       <find>右侧</find>
       <find>foamtree.set</find>
       <find>_.delay</find>
-      <find>Market value $m</find>
+      <find />
       <find>double</find>
-      <find>market v</find>
-      <find>Market value</find>
+      <find />
+      <find />
       <find>纠纷次数</find>
+      <find>what's</find>
+      <find>FT500</find>
+      <find />
     </findStrings>
     <replaceStrings>
       <replace>纠纷类型</replace>
-      <replace>Market value</replace>
+      <replace />
       <replace>纠纷次数</replace>
-      <replace>Disputes Times</replace>
+      <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -162,7 +213,11 @@
         <option value="$PROJECT_DIR$/yd/index.html" />
         <option value="$PROJECT_DIR$/demos/external-interaction.html" />
         <option value="$PROJECT_DIR$/demos/ft500.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/demos/assets/data/ft500-global.js" />
+=======
+        <option value="$PROJECT_DIR$/demos/assets/data/ft500-us.js" />
+>>>>>>> 4b68512d469ae866d9e00362cfb34fad8dbc557c
       </list>
     </option>
   </component>
@@ -178,7 +233,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="824" />
     <option name="y" value="177" />
     <option name="width" value="1419" />
@@ -214,7 +269,7 @@
               <item name="foamtree" type="462c0819:PsiDirectoryNode" />
               <item name="demos" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="foamtree" type="b2602c69:ProjectViewProjectNode" />
@@ -298,15 +353,26 @@
       <workItem from="1536117776392" duration="12378000" />
       <workItem from="1536474466431" duration="12818000" />
       <workItem from="1536649682643" duration="3379000" />
+<<<<<<< HEAD
       <workItem from="1536663026469" duration="210000" />
+=======
+      <workItem from="1536727500692" duration="1067000" />
+>>>>>>> 4b68512d469ae866d9e00362cfb34fad8dbc557c
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="28785000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+=======
+    <option name="totallyTimeSpent" value="29642000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+>>>>>>> 4b68512d469ae866d9e00362cfb34fad8dbc557c
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -335,6 +401,87 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/demos/ft500.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5040">
+          <caret line="240" column="47" lean-forward="true" selection-start-line="240" selection-start-column="47" selection-end-line="240" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#218#224#0" expanded="true" />
+            <element signature="e#224#230#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/assets/data/ft500-global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9387">
+          <caret line="447" column="23" selection-start-line="447" selection-start-column="23" selection-end-line="447" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/external-interaction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1113">
+          <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/assets/data/data-mining-100-topic-hierarchical.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/ft500.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17472">
+          <caret line="832" column="9" selection-start-line="832" selection-start-column="9" selection-end-line="832" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#218#224#0" expanded="true" />
+            <element signature="e#224#230#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/assets/data/ft500-global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/external-interaction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1113">
+          <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/assets/data/data-mining-100-topic-hierarchical.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 4b68512d469ae866d9e00362cfb34fad8dbc557c
     <entry file="file://$PROJECT_DIR$/demos/github.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-16342">
@@ -426,6 +573,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demos/external-interaction.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1219">
           <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
         </state>
@@ -435,13 +583,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="851">
           <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+=======
+        <state relative-caret-position="547">
+          <caret line="116" column="43" selection-start-line="116" selection-start-column="43" selection-end-line="116" selection-end-column="43" />
+>>>>>>> 4b68512d469ae866d9e00362cfb34fad8dbc557c
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demos/assets/data/ft500-global.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="115">
           <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+=======
+        <state relative-caret-position="350">
+          <caret line="1392" column="58" lean-forward="true" selection-start-line="1392" selection-start-column="58" selection-end-line="1392" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#218#224#0" expanded="true" />
+            <element signature="e#224#230#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+>>>>>>> 4b68512d469ae866d9e00362cfb34fad8dbc557c
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/assets/data/ft500-global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="647" column="27" lean-forward="true" selection-start-line="647" selection-start-column="27" selection-end-line="647" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/assets/data/ft500-us.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="7771" column="27" lean-forward="true" selection-start-line="7771" selection-start-column="27" selection-end-line="7771" selection-end-column="27" />
         </state>
       </provider>
     </entry>

@@ -27,7 +27,7 @@ public class Main {
         }
 
         //读取分词后的txt文件至dataList
-        String listString = FileWrite.txt2String("C:\\Users\\ydpc\\PycharmProjects\\words\\splits.txt");
+        String listString = FileWrite.txt2String("splits.txt");
         for (String listline:listString.split("\r\n")
              ) {
             if(listline.length()==0 || listline.contains("//")) continue;
