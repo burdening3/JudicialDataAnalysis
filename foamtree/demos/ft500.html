@@ -180,6 +180,8 @@
       /**
        * Metadata that describes the data set and the available functions and coloring schemes.
        */
+      var root;
+      var groupList;
       var metadata = (function () {
         var functions = {
           "identity": _.identity,
@@ -323,7 +325,6 @@
               { name: "Country" }
             ]
           },
-
           sizing: {
             fields: [
               { name: "Disputes Times", config: { fn: "" } },
@@ -715,7 +716,19 @@
             self.foamtree.set({
               dataObject: self.model,
               onGroupDoubleClick: function (e) {
-                console.log(e);
+                  var cloudPoly;
+                  console.log(e.group.label);
+                  for (var i = 0; i < groupList.length; i++) {
+                      // console.log(groupList[i].label);
+                      for (var j = 0; j < groupList[i].groups.length; j++) {
+                          // console.log(groupList[i].groups[j].label);
+                          if (groupList[i].groups[j].label == e.group.label) {
+                              console.log("bingo");
+                              cloudPoly = groupList[i].groups[j].polygon;
+                              console.log(cloudPoly);
+                          }
+                      }
+                  }
               }
             });
           }, 20);
@@ -1253,6 +1266,8 @@
 
           // Use custom label padding for the description group
           groupLabelLayoutDecorator: function (opts, params, vars) {
+              root = foamtree.get("dataObject");
+              groupList = getPolygons(root);
             if (params.description) {
               vars.verticalPadding = 0.1;
               vars.maxTotalTextHeight = 1.0;
@@ -1271,6 +1286,7 @@
               vars.labelColor = "#000";
             }
           },
+
 
           onGroupDoubleClick: function (e) {
             explorerConfig.clearSearch();
@@ -1295,6 +1311,7 @@
             }
           }
         });
+
 
         // Resize FoamTree on orientation change
         window.addEventListener("orientationchange", foamtree.resize);
@@ -1381,11 +1398,30 @@
           }
         });
         foamtree.on("groupClick", function (e) {
+
+            console.log(groupList);
           if (!e.group || !e.group.company) {
             e.preventDefault();
           }
         });
 
+
+        function getPolygons(parent) {
+              if (!parent) {
+                  return;
+              }
+
+              parent.polygon = foamtree.get("geometry", parent, true).polygon;
+
+              var groups = parent.groups;
+              if (groups) {
+                  for (var i = 0; i < groups.length; i++) {
+                      getPolygons(groups[i]);
+                      //console.log(groups[i]);
+                  }
+              }
+              return groups;
+        }
         var datasetsChoice = new DatasetChoice($(".datasets.form"), [
           { label: "按类型划分 ", dataset: "ft500-global.js"},
           { label: "按地区划分", dataset: "ft500-us.js"},
