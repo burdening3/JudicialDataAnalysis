@@ -24,6 +24,8 @@
  * @param foamtree the FoamTree instance to be the source
  *        of interaction events for this utility.
  */
+
+
 window.CarrotSearchFoamTree.hints = function(foamtree) {
   var macOs = /Mac/.test(window["navigator"]["userAgent"]);
   var touch = ('ontouchstart' in window) || (!!window["DocumentTouch"] && document instanceof window["DocumentTouch"]);

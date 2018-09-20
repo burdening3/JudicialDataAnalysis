@@ -44,7 +44,7 @@ public class CateToJson {
                 }
             });
 
-            for (int i = 0; i < Math.min(10,list.size()); i++) {
+            for (int i = 0; i < Math.min(50,list.size()); i++) {
                 top10.add("\""+list.get(i).getKey()+"\":\""+list.get(i).getValue()+"\"");
             }
             return top10;

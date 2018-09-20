@@ -1485,7 +1485,7 @@
             viewport = foamtree.get("viewport");
             var offsetLeft = foamtree.get("element").offsetLeft;
             var offsetTop = foamtree.get("element").offsetTop;
-            var screenX = offsetLeft + (-viewport.x + geometry.boxLeft+ geometry.boxWidth / 4 ) * viewport.scale;
+            var screenX = offsetLeft + (-viewport.x + geometry.boxLeft + geometry.boxWidth / 8 ) * viewport.scale;
             var screenY = offsetTop + (-viewport.y + geometry.boxTop ) * viewport.scale;
             console.log(e);
             if (e.exposed==true && grouptitles.contains(e.group.label)){
@@ -1523,8 +1523,8 @@
                 series: [ {
                     type: 'wordCloud',
                     gridSize: 2,
-                    sizeRange: [30, 80],
-                    rotationRange: [-90, 90],
+                    sizeRange: [45, 90],
+                    rotationRange: [0,0],
                     shape: "rect",
                     width: width,
                     height: height,
@@ -1549,7 +1549,16 @@
             };
             chart.setOption(option);
         }
-
+          document.onkeydown=function(ev)
+          {
+              var oEvent=ev||event;//获取事件对象(IE和其他浏览器不一样，这里要处理一下浏览器的兼容性event是IE；ev是chrome等)
+              //Esc键的keyCode是27
+              if(oEvent.keyCode==27)
+              {
+                  // alert('按键了');
+                  deleteCldouDiv();
+              }
+          }
         function addCloudDiv(x,y,width,height) {
             var my = document.createElement("ChildDiv");   //创建一个div
             document.body.appendChild(my);   //添加到页面
