@@ -195,6 +195,8 @@
       var groupList;
       var wordList;
       var label_tmp;
+      var geometry;
+      var viewport;
       var chart = echarts.init(document.getElementById('cloud'));
       var grouptitles=[];
       var metadata = (function () {
@@ -1418,6 +1420,7 @@
             detailsPanel.hide();
           }
         });
+
         foamtree.on("groupSelectionChanging", function (e) {
           if (!e.group || !e.group.company) {
             return;
@@ -1430,10 +1433,9 @@
         });
 
           foamtree.on("groupClick", function (e) {
+              geometry = foamtree.get("geometry", editedGroup);
+              viewport = foamtree.get("viewport");
             editedGroup = e.group;
-            var geometry = foamtree.get("geometry", editedGroup);
-            var viewport = foamtree.get("viewport");
-
             root = foamtree.get("dataObject");
             groupList = getPolygons(root);
             // console.log(groupList);
@@ -1479,14 +1481,21 @@
           }
 
         foamtree.on("GroupExposureChanging",function (e) {
+            geometry = foamtree.get("geometry", editedGroup);
+            viewport = foamtree.get("viewport");
+            var offsetLeft = foamtree.get("element").offsetLeft;
+            var offsetTop = foamtree.get("element").offsetTop;
+            var screenX = offsetLeft + (-viewport.x + geometry.boxLeft+ geometry.boxWidth / 4 ) * viewport.scale;
+            var screenY = offsetTop + (-viewport.y + geometry.boxTop ) * viewport.scale;
             console.log(e);
             if (e.exposed==true && grouptitles.contains(e.group.label)){
                 label_tmp = e.group.company.Company;
                 editedGroup.label = "";
                 foamtree.redraw();
-                drawCloud(wordList);
+                drawCloud(wordList,screenX,screenY,geometry.boxWidth * viewport.scale,geometry.boxHeight * viewport.scale);
             }else {
                 // alert("shrink");
+                deleteCldouDiv();
                 editedGroup.label = label_tmp;
                 foamtree.redraw();
                 chart.clear();
@@ -1495,9 +1504,9 @@
         })
 
 
-        function drawCloud(arr) {
+        function drawCloud(arr,x,y,width,height) {
             chart.clear();
-            addCloudDiv(400,400,500,500);
+            addCloudDiv(x,y,width,height);
             chart = echarts.init(document.getElementById('ChildDiv'));
             var shape = 'circle';
             var data = [];
@@ -1516,9 +1525,9 @@
                     gridSize: 2,
                     sizeRange: [30, 80],
                     rotationRange: [-90, 90],
-                    shape: "circle",
-                    width: 1600,
-                    height: 1400,
+                    shape: "rect",
+                    width: width,
+                    height: height,
                     drawOutOfBound: true,
                     textStyle: {
                         normal: {
@@ -1545,8 +1554,8 @@
             var my = document.createElement("ChildDiv");   //创建一个div
             document.body.appendChild(my);   //添加到页面
             my.style.position="absolute";    //通过样式指定该div的位置方式,
-            my.style.top= x;   //通过样式指定y坐标
-            my.style.left= y;   //通过样式指定x坐标
+            my.style.top= y+'px';   //通过样式指定y坐标
+            my.style.left= x+'px';   //通过样式指定x坐标
             my.style.border='none'; // 设置边框
             my.style.width= width+'px';
             my.style.height=height+'px';//通过样式指定宽度、高度

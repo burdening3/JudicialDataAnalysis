@@ -38,16 +38,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="countbyLoc.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="countbyLoc.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/countbyLoc.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-163108">
-              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="356">
+              <caret line="7795" column="21" lean-forward="true" selection-start-line="7795" selection-start-column="21" selection-end-line="7795" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="countbySec.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="countbySec.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/countbySec.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
@@ -139,6 +139,7 @@
       <find>刑事</find>
       <find>RentFlag</find>
       <find>货车</find>
+      <find>自行车</find>
     </findStrings>
     <replaceStrings>
       <replace>HouseFlag</replace>
@@ -194,7 +195,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="699" />
     <option name="y" value="271" />
     <option name="width" value="1400" />
@@ -406,15 +407,15 @@
       <workItem from="1536588145519" duration="49000" />
       <workItem from="1536594149597" duration="2120000" />
       <workItem from="1536651439899" duration="4372000" />
-      <workItem from="1536727621818" duration="1682000" />
+      <workItem from="1536727621818" duration="2368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114282000" />
+    <option name="totallyTimeSpent" value="114968000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -702,13 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/countbyLoc.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-163108">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/classification/WriteJson.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -723,6 +717,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="473" column="18" lean-forward="true" selection-start-line="473" selection-start-column="18" selection-end-line="473" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/countbyLoc.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="7795" column="21" lean-forward="true" selection-start-line="7795" selection-start-column="21" selection-end-line="7795" selection-end-column="21" />
         </state>
       </provider>
     </entry>

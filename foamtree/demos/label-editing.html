@@ -200,7 +200,7 @@
                 console.log("offsetleft:\r\n",offsetLeft);
                 console.log("offsettop:\r\n",offsetTop);
                 var screenX = offsetLeft + (-viewport.x + geometry.boxLeft + geometry.boxWidth / 2) * viewport.scale;
-              var screenY = offsetTop + (-viewport.y + geometry.boxTop) * viewport.scale;
+                var screenY = offsetTop + (-viewport.y + geometry.boxTop) * viewport.scale;
               if (screenY < tip.height * 1.2) {
                 screenY += (geometry.boxHeight - geometry.boxHeight * 0.15) * viewport.scale;
                 tip.place("bottom");
