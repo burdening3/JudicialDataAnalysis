@@ -1485,7 +1485,8 @@
             viewport = foamtree.get("viewport");
             var offsetLeft = foamtree.get("element").offsetLeft;
             var offsetTop = foamtree.get("element").offsetTop;
-            var screenX = offsetLeft + (-viewport.x + geometry.boxLeft + geometry.boxWidth / 8 ) * viewport.scale;
+            var screenX =  (-offsetLeft+ ( -viewport.x + geometry.boxLeft +geometry.boxWidth/16    ) * viewport.scale )* 1770/(1770-440);
+            console.log(geometry);
             var screenY = offsetTop + (-viewport.y + geometry.boxTop ) * viewport.scale;
             console.log(e);
             if (e.exposed==true && grouptitles.contains(e.group.label)){
@@ -1522,13 +1523,13 @@
                 tooltip: {},
                 series: [ {
                     type: 'wordCloud',
-                    gridSize: 2,
-                    sizeRange: [45, 90],
+                    gridSize: 3,
+                    sizeRange: [30, 60],
                     rotationRange: [0,0],
                     shape: "rect",
-                    width: width,
-                    height: height,
-                    drawOutOfBound: true,
+                    width: width*0.9,
+                    height: height*0.9,
+                    drawOutOfBound: false,
                     textStyle: {
                         normal: {
                             color: function () {
@@ -1551,6 +1552,7 @@
         }
           document.onkeydown=function(ev)
           {
+              viewport = foamtree.get("viewport");
               var oEvent=ev||event;//获取事件对象(IE和其他浏览器不一样，这里要处理一下浏览器的兼容性event是IE；ev是chrome等)
               //Esc键的keyCode是27
               if(oEvent.keyCode==27)
@@ -1565,12 +1567,11 @@
             my.style.position="absolute";    //通过样式指定该div的位置方式,
             my.style.top= y+'px';   //通过样式指定y坐标
             my.style.left= x+'px';   //通过样式指定x坐标
-            my.style.border='none'; // 设置边框
+            my.style.border='solid'; // 设置边框
             my.style.width= width+'px';
             my.style.height=height+'px';//通过样式指定宽度、高度
-            my.style.backgroundColor='#ffffcc'
+            my.style.backgroundColor='#cccca3'
             //通过样式指定背景颜色,,若是背景图片 例为my.style.backgroundImage="url(img/3.jpg)"
-            my.style.backgroundColor="#ffffcc";   //设置样式透明
             var alpha = 80;
             my.style.filter='alpha(opacity:'+alpha+')';//IE
             my.style.opacity=alpha/100;//IE之外其他浏览器

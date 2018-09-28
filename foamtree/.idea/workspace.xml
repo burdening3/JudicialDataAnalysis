@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3da39ab1-21d4-4b04-8efa-5a76b92ca0a0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carrotsearch.foamtree.util.hints.js" beforeDir="false" afterPath="$PROJECT_DIR$/carrotsearch.foamtree.util.hints.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demos/assets/data/ft500-global.js" beforeDir="false" afterPath="$PROJECT_DIR$/demos/assets/data/ft500-global.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demos/ft500.html" beforeDir="false" afterPath="$PROJECT_DIR$/demos/ft500.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,7 +23,7 @@
             <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/api/index.html">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="46299">
+                  <state relative-caret-position="42273">
                     <caret line="2013" column="21" selection-start-line="2013" selection-start-column="21" selection-end-line="2013" selection-end-column="21" />
                   </state>
                 </provider>
@@ -34,8 +32,17 @@
             <file leaf-file-name="label-editing.html" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/demos/label-editing.html">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="759">
-                    <caret line="107" column="40" selection-start-line="107" selection-start-column="40" selection-end-line="107" selection-end-column="40" />
+                  <state relative-caret-position="-585">
+                    <caret line="148" column="29" selection-start-line="148" selection-start-column="29" selection-end-line="148" selection-end-column="29" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="tooltip.min.js" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/demos/assets/js/tooltip.min.js">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="789">
+                    <caret line="1" column="10725" selection-start-line="1" selection-start-column="10725" selection-end-line="1" selection-end-column="10725" />
                   </state>
                 </provider>
               </entry>
@@ -50,8 +57,8 @@
       <file leaf-file-name="ft500.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demos/ft500.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="1489" column="27" lean-forward="true" selection-start-line="1489" selection-start-column="27" selection-end-line="1489" selection-end-column="27" />
+            <state relative-caret-position="210">
+              <caret line="1486" column="39" lean-forward="true" selection-start-line="1486" selection-start-column="39" selection-end-line="1486" selection-end-column="39" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
@@ -63,11 +70,29 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="tooltips.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demos/tooltips.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="93" column="25" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lib.dom.d.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="7855" column="13" selection-start-line="7855" selection-start-column="13" selection-end-line="7855" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="carrotsearch.foamtree.util.hints.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/carrotsearch.foamtree.util.hints.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="546">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -75,8 +100,8 @@
       <file leaf-file-name="ft500-global.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demos/assets/data/ft500-global.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="2188" column="26" lean-forward="true" selection-start-line="2188" selection-start-column="26" selection-end-line="2188" selection-end-column="26" />
+            <state relative-caret-position="14217">
+              <caret line="2231" selection-start-line="2231" selection-end-line="2231" />
             </state>
           </provider>
         </entry>
@@ -84,7 +109,7 @@
       <file leaf-file-name="graph-navigation.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demos/graph-navigation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4600">
+            <state relative-caret-position="4200">
               <caret line="200" column="67" selection-start-line="200" selection-start-column="67" selection-end-line="200" selection-end-column="67" />
             </state>
           </provider>
@@ -93,7 +118,7 @@
       <file leaf-file-name="geometry.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demos/geometry.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2116">
+            <state relative-caret-position="1932">
               <caret line="92" column="13" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="13" />
             </state>
           </provider>
@@ -102,21 +127,28 @@
       <file leaf-file-name="sticky-tooltips.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demos/sticky-tooltips.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="897">
-              <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+            <state relative-caret-position="315">
+              <caret line="53" column="11" lean-forward="true" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="large.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demos/large.html">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="titlebar-details.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demos/titlebar-details.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="carrotsearch.foamtree.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/carrotsearch.foamtree.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73324">
+            <state relative-caret-position="66948">
               <caret line="3188" column="12" selection-start-line="3188" selection-start-column="12" selection-end-line="3188" selection-end-column="12" />
             </state>
           </provider>
@@ -126,8 +158,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>foamtree</find>
-      <find>getElementById</find>
       <find>editedGroup</find>
       <find>legend</find>
       <find>foamtree.on(&quot;groupDouble</find>
@@ -156,6 +186,8 @@
       <find>offsetLeft</find>
       <find>esc</find>
       <find>ESC</find>
+      <find>cloud</find>
+      <find>side</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -272,21 +304,21 @@
       <workItem from="1537254629327" duration="16425000" />
       <workItem from="1537344346637" duration="3692000" />
       <workItem from="1537445408881" duration="1754000" />
+      <workItem from="1538116707394" duration="2463000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22063000" />
+    <option name="totallyTimeSpent" value="24526000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -299,6 +331,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,6 +341,79 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/demos/ft500.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31269">
+          <caret line="1489" column="27" lean-forward="true" selection-start-line="1489" selection-start-column="27" selection-end-line="1489" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrotsearch.foamtree.util.hints.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/assets/data/ft500-global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14217">
+          <caret line="677" lean-forward="true" selection-start-line="677" selection-end-line="677" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/graph-navigation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4200">
+          <caret line="200" column="67" selection-start-line="200" selection-start-column="67" selection-end-line="200" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/geometry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1932">
+          <caret line="92" column="13" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/sticky-tooltips.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrotsearch.foamtree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66948">
+          <caret line="3188" column="12" selection-start-line="3188" selection-start-column="12" selection-end-line="3188" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42273">
+          <caret line="2013" column="21" selection-start-line="2013" selection-start-column="21" selection-end-line="2013" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/label-editing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2247">
+          <caret line="107" column="40" selection-start-line="107" selection-start-column="40" selection-end-line="107" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demos/ft500.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35305">
@@ -356,9 +462,6 @@
           <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos/large.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/carrotsearch.foamtree.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -430,9 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demos/large.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/carrotsearch.foamtree.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66948">
@@ -454,62 +554,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demos/large.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/carrotsearch.foamtree.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73324">
+        <state relative-caret-position="66948">
           <caret line="3188" column="12" selection-start-line="3188" selection-start-column="12" selection-end-line="3188" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos/sticky-tooltips.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demos/geometry.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2116">
+        <state relative-caret-position="1932">
           <caret line="92" column="13" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demos/graph-navigation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4600">
+        <state relative-caret-position="4200">
           <caret line="200" column="67" selection-start-line="200" selection-start-column="67" selection-end-line="200" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46299">
+        <state relative-caret-position="42273">
           <caret line="2013" column="21" selection-start-line="2013" selection-start-column="21" selection-end-line="2013" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/carrotsearch.foamtree.util.hints.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="546">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demos/assets/data/ft500-global.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="2188" column="26" lean-forward="true" selection-start-line="2188" selection-start-column="26" selection-end-line="2188" selection-end-column="26" />
+        <state relative-caret-position="14217">
+          <caret line="2231" selection-start-line="2231" selection-end-line="2231" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="7855" column="13" selection-start-line="7855" selection-start-column="13" selection-end-line="7855" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/tooltips.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="93" column="25" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/sticky-tooltips.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="53" column="11" lean-forward="true" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/assets/js/tooltip.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="789">
+          <caret line="1" column="10725" selection-start-line="1" selection-start-column="10725" selection-end-line="1" selection-end-column="10725" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/titlebar-details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/label-editing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-585">
+          <caret line="148" column="29" selection-start-line="148" selection-start-column="29" selection-end-line="148" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demos/ft500.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="1489" column="27" lean-forward="true" selection-start-line="1489" selection-start-column="27" selection-end-line="1489" selection-end-column="27" />
+        <state relative-caret-position="210">
+          <caret line="1486" column="39" lean-forward="true" selection-start-line="1486" selection-start-column="39" selection-end-line="1486" selection-end-column="39" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
@@ -517,13 +652,6 @@
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos/label-editing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="107" column="40" selection-start-line="107" selection-start-column="40" selection-end-line="107" selection-end-column="40" />
         </state>
       </provider>
     </entry>
