@@ -597,8 +597,9 @@
           return inlineFieldsTemplate({
             label: "Layout",
             content:
-                radioTemplate({ name: "layout", value: "rectangular", label: "rectangular" }) +
+
                 radioTemplate({ name: "layout", value: "polygonal", label: "polygonal" }) +
+                radioTemplate({ name: "layout", value: "rectangular", label: "rectangular" }) +
                 radioTemplate({ name: "layout", value: "circular", label: "circular" })
           });
         }
@@ -666,7 +667,7 @@
           var levels = Math.min(3, metadata.dataset.levels.max);
 
           var html = "";
-          for (var i = 0; i < levels; i++) {
+          for (var i = 0; i < levels-1; i++) {
             html += selectDropdownTemplate({
               width: "four",
               name: "level" + i,
@@ -1239,7 +1240,7 @@
           pixelRatio: window.devicePixelRatio || 1,
 
           // Use rectangular layout by default
-          layout: "squarified",
+          // layout: "squarified",
           relaxationQualityThreshold: 2.5,
 
           // Use flattened view by default
@@ -1368,8 +1369,8 @@
           ],
           sizing: { field: "Disputes Times", configs: _.cloneDeep(metadata.dataset.sizing.fields) },
           coloring: { field: "Disputes Times", configs: _.cloneDeep(metadata.dataset.coloring.fields) },
-          layout: "rectangular",
-          container: "rectangular"
+          layout: "polygonal",
+          container: "polygonal"
         };
 
         // Instantiate and link the components together
