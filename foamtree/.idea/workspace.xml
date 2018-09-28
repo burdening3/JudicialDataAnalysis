@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3da39ab1-21d4-4b04-8efa-5a76b92ca0a0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/coverage.html" beforeDir="false" afterPath="$PROJECT_DIR$/demos/coverage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demos/ft500.html" beforeDir="false" afterPath="$PROJECT_DIR$/demos/ft500.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -32,7 +33,7 @@
             <file leaf-file-name="label-editing.html" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/demos/label-editing.html">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="-585">
+                  <state relative-caret-position="-333">
                     <caret line="148" column="29" selection-start-line="148" selection-start-column="29" selection-end-line="148" selection-end-column="29" />
                   </state>
                 </provider>
@@ -57,12 +58,16 @@
       <file leaf-file-name="ft500.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demos/ft500.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="1486" column="39" lean-forward="true" selection-start-line="1486" selection-start-column="39" selection-end-line="1486" selection-end-column="39" />
+            <state relative-caret-position="287">
+              <caret line="1292" column="39" lean-forward="true" selection-start-line="1292" selection-start-column="39" selection-end-line="1292" selection-end-column="39" />
               <folding>
+                <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#218#224#0" expanded="true" />
+                <element signature="e#224#230#0" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -70,86 +75,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tooltips.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demos/tooltips.html">
+      <file leaf-file-name="scada.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demos/scada.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="93" column="25" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
+            <state relative-caret-position="266">
+              <caret line="395" lean-forward="true" selection-start-line="395" selection-end-line="395" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lib.dom.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <file leaf-file-name="coverage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demos/coverage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="7855" column="13" selection-start-line="7855" selection-start-column="13" selection-end-line="7855" selection-end-column="13" />
+            <state relative-caret-position="308">
+              <caret line="150" selection-start-line="150" selection-end-line="170" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="carrotsearch.foamtree.util.hints.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carrotsearch.foamtree.util.hints.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
+      <file leaf-file-name="hints.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demos/hints.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="ft500-global.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demos/assets/data/ft500-global.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14217">
-              <caret line="2231" selection-start-line="2231" selection-end-line="2231" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="graph-navigation.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demos/graph-navigation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4200">
-              <caret line="200" column="67" selection-start-line="200" selection-start-column="67" selection-end-line="200" selection-end-column="67" />
-            </state>
-          </provider>
+      <file leaf-file-name="flickr.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demos/flickr.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="geometry.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demos/geometry.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1932">
+            <state relative-caret-position="872">
               <caret line="92" column="13" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sticky-tooltips.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demos/sticky-tooltips.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="53" column="11" lean-forward="true" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
-              <folding>
-                <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="titlebar-details.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demos/titlebar-details.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-            </state>
-          </provider>
+      <file leaf-file-name="github.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demos/github.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="carrotsearch.foamtree.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/carrotsearch.foamtree.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66948">
-              <caret line="3188" column="12" selection-start-line="3188" selection-start-column="12" selection-end-line="3188" selection-end-column="12" />
+            <state relative-caret-position="809">
+              <caret line="3344" column="33" lean-forward="true" selection-start-line="3344" selection-start-column="33" selection-end-line="3344" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -158,20 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>editedGroup</find>
-      <find>legend</find>
-      <find>foamtree.on(&quot;groupDouble</find>
-      <find>double</find>
-      <find>ongroup</find>
-      <find>groupDoubleClick</find>
-      <find>groupClick</find>
-      <find>label</find>
-      <find>textarea</find>
-      <find>style</find>
-      <find>div</find>
-      <find>chart</find>
-      <find>doubleclick</find>
-      <find>button</find>
       <find>unexpose</find>
       <find>Right double click</find>
       <find>right</find>
@@ -188,6 +146,20 @@
       <find>ESC</find>
       <find>cloud</find>
       <find>side</find>
+      <find>groupti</find>
+      <find>grouplabel</find>
+      <find>title</find>
+      <find>titlebar</find>
+      <find>titleBarTextColor</find>
+      <find>vars</find>
+      <find>solid</find>
+      <find>label</find>
+      <find>descriptionGroupMinHeight</find>
+      <find>groupLabelLayoutDecorator</find>
+      <find>descriptionGroupSize</find>
+      <find>description</find>
+      <find>color</find>
+      <find>descr</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -202,6 +174,8 @@
         <option value="$PROJECT_DIR$/demos/label-editing.html" />
         <option value="$PROJECT_DIR$/carrotsearch.foamtree.util.hints.js" />
         <option value="$PROJECT_DIR$/demos/assets/data/ft500-global.js" />
+        <option value="$PROJECT_DIR$/demos/scada.html" />
+        <option value="$PROJECT_DIR$/demos/coverage.html" />
         <option value="$PROJECT_DIR$/demos/ft500.html" />
       </list>
     </option>
@@ -282,11 +256,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="ft500.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/foamtree/demos/ft500.html" />
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="background.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/foamtree/demos/background.html" />
+    <configuration name="contextmenu.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/foamtree/demos/contextmenu.html" />
+    <configuration name="coverage.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/foamtree/demos/coverage.html" />
+    <configuration name="csv.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/foamtree/demos/csv.html" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/foamtree/demos/index.html" />
+    <list>
+      <item itemvalue="JavaScript Debug.background.html" />
+      <item itemvalue="JavaScript Debug.contextmenu.html" />
+      <item itemvalue="JavaScript Debug.coverage.html" />
+      <item itemvalue="JavaScript Debug.csv.html" />
+      <item itemvalue="JavaScript Debug.index.html" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.ft500.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.csv.html" />
+        <item itemvalue="JavaScript Debug.coverage.html" />
+        <item itemvalue="JavaScript Debug.contextmenu.html" />
+        <item itemvalue="JavaScript Debug.background.html" />
       </list>
     </recent_temporary>
   </component>
@@ -304,12 +293,12 @@
       <workItem from="1537254629327" duration="16425000" />
       <workItem from="1537344346637" duration="3692000" />
       <workItem from="1537445408881" duration="1754000" />
-      <workItem from="1538116707394" duration="2463000" />
+      <workItem from="1538116707394" duration="7799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24526000" />
+    <option name="totallyTimeSpent" value="29862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -319,6 +308,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -331,7 +321,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,9 +335,13 @@
         <state relative-caret-position="31269">
           <caret line="1489" column="27" lean-forward="true" selection-start-line="1489" selection-start-column="27" selection-end-line="1489" selection-end-column="27" />
           <folding>
+            <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#218#224#0" expanded="true" />
+            <element signature="e#224#230#0" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
@@ -419,9 +412,13 @@
         <state relative-caret-position="35305">
           <caret line="1535" column="43" lean-forward="true" selection-start-line="1535" selection-start-column="43" selection-end-line="1535" selection-end-column="43" />
           <folding>
+            <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#218#224#0" expanded="true" />
+            <element signature="e#224#230#0" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
@@ -489,9 +486,13 @@
         <state relative-caret-position="30156">
           <caret line="1436" lean-forward="true" selection-start-line="1436" selection-end-line="1436" />
           <folding>
+            <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#218#224#0" expanded="true" />
+            <element signature="e#224#230#0" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
@@ -545,33 +546,16 @@
         <state relative-caret-position="32223">
           <caret line="1401" column="35" lean-forward="true" selection-start-line="1401" selection-start-column="35" selection-end-line="1401" selection-end-column="35" />
           <folding>
+            <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#218#224#0" expanded="true" />
+            <element signature="e#224#230#0" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrotsearch.foamtree.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66948">
-          <caret line="3188" column="12" selection-start-line="3188" selection-start-column="12" selection-end-line="3188" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos/geometry.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1932">
-          <caret line="92" column="13" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos/graph-navigation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4200">
-          <caret line="200" column="67" selection-start-line="200" selection-start-column="67" selection-end-line="200" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -634,21 +618,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demos/accuracy.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/settings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="2168" column="63" lean-forward="true" selection-start-line="2168" selection-start-column="63" selection-end-line="2168" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demos/label-editing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-585">
+        <state relative-caret-position="-333">
           <caret line="148" column="29" selection-start-line="148" selection-start-column="29" selection-end-line="148" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/deferred-layout.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/external-interaction.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/flickr.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/geometry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="872">
+          <caret line="92" column="13" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/github.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/graph-navigation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="872">
+          <caret line="200" column="67" selection-start-line="200" selection-start-column="67" selection-end-line="200" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/images.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/hints.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/scada.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="395" lean-forward="true" selection-start-line="395" selection-end-line="395" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrotsearch.foamtree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="809">
+          <caret line="3344" column="33" lean-forward="true" selection-start-line="3344" selection-start-column="33" selection-end-line="3344" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/coverage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="150" selection-start-line="150" selection-end-line="170" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demos/ft500.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="1486" column="39" lean-forward="true" selection-start-line="1486" selection-start-column="39" selection-end-line="1486" selection-end-column="39" />
+        <state relative-caret-position="287">
+          <caret line="1292" column="39" lean-forward="true" selection-start-line="1292" selection-start-column="39" selection-end-line="1292" selection-end-column="39" />
           <folding>
+            <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#218#224#0" expanded="true" />
+            <element signature="e#224#230#0" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
