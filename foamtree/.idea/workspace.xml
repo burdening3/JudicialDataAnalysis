@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3da39ab1-21d4-4b04-8efa-5a76b92ca0a0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demos/coverage.html" beforeDir="false" afterPath="$PROJECT_DIR$/demos/coverage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demos/ft500.html" beforeDir="false" afterPath="$PROJECT_DIR$/demos/ft500.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -58,8 +56,8 @@
       <file leaf-file-name="ft500.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demos/ft500.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="1292" column="39" lean-forward="true" selection-start-line="1292" selection-start-column="39" selection-end-line="1292" selection-end-column="39" />
+            <state relative-caret-position="434">
+              <caret line="365" column="48" selection-start-line="365" selection-start-column="48" selection-end-line="365" selection-end-column="48" />
               <folding>
                 <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
@@ -130,12 +128,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>unexpose</find>
-      <find>Right double click</find>
-      <find>right</find>
-      <find>expose</find>
-      <find>ongroupExp</find>
-      <find>ongroupexpo</find>
       <find>exposure</find>
       <find>foamtree.on(&quot;</find>
       <find>orientationchange</find>
@@ -160,6 +152,12 @@
       <find>description</find>
       <find>color</find>
       <find>descr</find>
+      <find>seq</find>
+      <find>tol-sq</find>
+      <find>color by</find>
+      <find>dropdown</find>
+      <find>initial</find>
+      <find>tol-dv</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -293,12 +291,12 @@
       <workItem from="1537254629327" duration="16425000" />
       <workItem from="1537344346637" duration="3692000" />
       <workItem from="1537445408881" duration="1754000" />
-      <workItem from="1538116707394" duration="7799000" />
+      <workItem from="1538116707394" duration="8689000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29862000" />
+    <option name="totallyTimeSpent" value="30752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -693,8 +691,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demos/ft500.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="1292" column="39" lean-forward="true" selection-start-line="1292" selection-start-column="39" selection-end-line="1292" selection-end-column="39" />
+        <state relative-caret-position="434">
+          <caret line="365" column="48" selection-start-line="365" selection-start-column="48" selection-end-line="365" selection-end-column="48" />
           <folding>
             <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
