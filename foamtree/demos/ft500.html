@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>FT500 Explorer</title>
+    <script src='http://d3js.org/d3.v3.min.js' charset='utf-8'></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
 
     <meta charset="utf-8"/>
@@ -14,6 +15,11 @@
         width: 100%;
         height: 100%;
         margin: 0;
+      }
+      .line {
+        fill: none;
+        stroke: steelblue;
+        stroke-width: 1.5px;
       }
 
       .blue { color: #3b83c0 }
@@ -131,6 +137,7 @@
   </head>
 
   <body>
+  <input type="button" id="btn" value="click" />
     <div id="container">
       <div id="visualization"></div>
     </div>
@@ -190,6 +197,7 @@
       /**
        * Metadata that describes the data set and the available functions and coloring schemes.
        */
+      var LineData = new Array(); //用于画sparkcloud
       var root;
       var editedGroup;
       var groupList;
@@ -199,6 +207,7 @@
       var viewport;
       var chart = echarts.init(document.getElementById('cloud'));
       var grouptitles=[];
+      readLineData();
       var metadata = (function () {
         var functions = {
           "identity": _.identity,
@@ -1496,6 +1505,7 @@
                 editedGroup.label = "";
                 foamtree.redraw();
                 drawCloud(wordList,screenX,screenY,geometry.boxWidth * viewport.scale,geometry.boxHeight * viewport.scale);
+                drawSpark(editedGroup.company.Sector+"@"+editedGroup.company.Company);
             }else {
                 // alert("shrink");
                 deleteCldouDiv();
@@ -1572,19 +1582,41 @@
             my.style.border='none'; // 设置边框
             my.style.width= width+'px';
             my.style.height=height+'px';//通过样式指定宽度、高度
-            my.style.backgroundColor='#cccca3'
+            my.style.backgroundColor='#transparent';
             //通过样式指定背景颜色,,若是背景图片 例为my.style.backgroundImage="url(img/3.jpg)"
             var alpha = 80;
             my.style.filter='alpha(opacity:'+alpha+')';//IE
             my.style.opacity=alpha/100;//IE之外其他浏览器
             my.id = "ChildDiv";//设置ID
+            addLineDiv(x+width/2,y+height,140,70);
         }
+          function addLineDiv(x,y,width,height) {
+              var my = document.createElement("LineDiv");   //创建一个div
+              document.body.appendChild(my);   //添加到页面
+              my.style.position="absolute";    //通过样式指定该div的位置方式,
+              my.style.top= y-height+'px';   //通过样式指定y坐标
+              my.style.left= x-width/2+'px';   //通过样式指定x坐标
+              my.style.border='none'; // 设置边框
+              my.style.width= width+'px';
+              my.style.height=height+'px';//通过样式指定宽度、高度
+              my.style.backgroundColor='transparent';
+              //通过样式指定背景颜色,,若是背景图片 例为my.style.backgroundImage="url(img/3.jpg)"
+              var alpha = 80;
+              my.style.filter='alpha(opacity:'+alpha+')';//IE
+              my.style.opacity=alpha/100;//IE之外其他浏览器
+              my.id = "LineDiv";//设置ID
+          }
 
         function deleteCldouDiv() {
             if(  (cdiv=document.getElementById('ChildDiv'))!=null){
                 p = cdiv.parentNode;
                 p.removeChild(cdiv);
             }
+            if(  (cdiv=document.getElementById('LineDiv'))!=null){
+                p = cdiv.parentNode;
+                p.removeChild(cdiv);
+            }
+
         }
 
 
@@ -1650,6 +1682,147 @@
         // Show the UI
         $("#controls").css("opacity", 1);
       });
+      var lineName = "民事@邻里纠纷";
+      var oBtn = document.getElementById('btn');
+
+      oBtn.onclick = function(){
+          // alert(1);
+
+          drawSpark(lineName);
+      }
+
+      function readLineData() {
+          d3.csv("countbyDate.csv",function (dataset) {
+              console.log(dataset);
+              LineData = dataset;
+              console.log("Line Data Reading Complete");
+          });
+      }
+
+    function drawSpark(lineName) {
+
+        var width = 50;
+        var height = 20;
+        var margins = {top:0, bottom: 60, left: 60, right:15};
+        var sparkline_width = 140;
+        var sparkline_height = 30;
+
+        var xScale = d3.scale.linear().range([0,sparkline_width]).nice();
+        var yScale = d3.scale.linear().range([sparkline_height,0]).nice();
+
+        var TextScale = d3.scale.linear().range([12, 100]).nice();
+
+
+
+            var dataset = new Array();
+            dataset = LineData;
+            console.log(dataset);
+        var dataset2 = new Array();
+            for (var i = 0; i < dataset.length; i++) {
+                if (dataset[i].word==lineName) {
+                    console.log("匹配成功，添加词条");
+                    dataset2.push(dataset[i]);
+                };
+
+            }
+            console.log(dataset2);
+
+
+             nestedData = d3.nest()
+                .key(function(d) {return d.word})
+                .entries(dataset2);
+
+            nestedData.forEach(function(d){
+                var total = 0;
+                for(var i = 0; i < d.values.length; i++){
+                    total += +d.values[i].freq;
+                }
+                d.totalFrequency = total;
+            })
+
+            nestedData.sort(function(a, b){
+                return (b.totalFrequency - a.totalFrequency);
+            });
+
+            console.log(nestedData);
+
+
+            TextScale.domain(d3.extent(nestedData, function(d) {return d.totalFrequency;}))
+
+
+            // var divs = d3.select('body').selectAll('.word_container')
+            //     .data(nestedData);
+
+
+            // console.log(nestedData);
+            //       divs.append("text")
+            //           .text(function(d){return d.key.split("@")[1]})
+            //           .style("font-family", "sans-serif")
+            //           .style("font-size", function(d){return TextScale(d.totalFrequency)+"px"})
+            //           .style("vertical-align", "bottom")
+            //           .style("color", "teal");
+
+
+            var line = d3.svg.line()
+                .x(function(d) {
+                    var year = parseInt(d.year.split("/")[0]);
+                    var month = parseInt(d.year.split("/")[1]);
+                    var sum = 12*(year-2015)+month-5+2001;
+                    // console.log(sum);
+                    // console.log(d.year);
+                    return xScale(""+sum); })
+                .y(function(d) { return yScale(+d.freq); });
+
+            // console.log(line);
+
+            // var chart = divs.append("svg")
+            //     .attr("width", width)
+            //     .attr("height", height);
+
+
+
+
+
+
+                var line_divs = d3.select('body').selectAll('LineDiv')
+                    .data(nestedData);
+                var  chart2 = line_divs.append("svg")
+                    .attr("width", sparkline_width)
+                    .attr("height", sparkline_height);
+
+                chart2.append("path")
+                    .datum(function(d){
+                        // var max = 0;
+                        // var min = 10000000000;
+                        // for(var i=0; i < d.values.length; i++){
+                        //   console.log(d.values[i].freq);
+                        //   if(d.values[i].freq > max){
+                        //     max = d.values[i].freq;
+                        //   }
+                        //   if(d.values[i].freq < min){
+                        //     min = d.values[i].freq;
+                        //   }
+                        // }
+                        // console.log("max " + max);
+                        // console.log("min " + min);
+                        // min = d3.min(d.values, function(freq){
+                        //   return freq.freq;
+                        // });
+                        // max = d3.max(d.values, function(freq){
+                        //   return freq.freq;
+                        // });
+                        //console.log(min);
+                        //console.log(max);
+
+
+                        xScale.domain([2010,2032]);
+                        yScale.domain([0, 80]);
+                        console.log(d);
+                        return d.values
+                    })
+                    .attr("class", "line")
+                    .attr("d", line);
+    }
     </script>
   </body>
 </html>

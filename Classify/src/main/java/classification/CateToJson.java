@@ -457,6 +457,9 @@ public class CateToJson {
         WriteJson.writeWithLoc(countbyLoc,cateMapByLoc);
         CountByDate countByDate = new CountByDate();
         Map countbydate = countByDate.CountWithoudLoc(dis);
+        WriteJson.writeDateCSV(countbydate);
+
+
 
          System.out.println("end");
 //        for (String key:map.keySet()
