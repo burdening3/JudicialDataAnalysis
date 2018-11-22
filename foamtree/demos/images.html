@@ -156,6 +156,25 @@
           return group
         });
 
+          var groups2 = svgs.map(function(url, i) {
+              var group = {
+                  weight: 0.2 + Math.pow(i / svgs.length, 2)
+              };
+
+              // Initiate loading of the image
+              var img = new Image();
+              img.onload = function() {
+                  // Once the image has been loaded,
+                  // put it in the group's data object
+                  group.image = img;
+
+                  // Redraw FoamTree to show the newly loaded image
+                  foamtree.redraw();
+              };
+              img.src = "../demos/assets/svg/webicon-zerply.svg";
+              return group
+          });
+
         var foamtree = new CarrotSearchFoamTree({
           // Identifier of the HTML element defined above
           id: "visualization",
@@ -195,6 +214,7 @@
                 group.box = CarrotSearchFoamTree.geometry.rectangleInPolygon(
                     params.polygon, params.polygonCenterX, params.polygonCenterY, 1.0, 0.65);
               }
+              // console.log(params);
 
               // Draw the image
               var imageSize = isFirefox ? Math.round(group.box.w) : group.box.w;
@@ -203,6 +223,17 @@
           },
           groupContentDecoratorTriggering: "onSurfaceDirty"
         });
+
+          foamtree.on("groupDoubleClick",function (e) {
+            var gr = foamtree.get("dataObject");
+            console.log(gr);
+
+            foamtree.set({
+                dataObject: {
+                    groups: gr
+                }
+            });
+          })
 
         // Resize FoamTree on orientation change
         window.addEventListener("orientationchange", foamtree.resize);

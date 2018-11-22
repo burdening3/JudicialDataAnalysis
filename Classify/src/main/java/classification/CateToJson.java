@@ -107,7 +107,16 @@ public class CateToJson {
         boolean CriminalFlag = false;
         boolean HouseFlag = false;
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd HH:mm");
-
+        public String getMonth(){
+            try{
+                Calendar calendar = Calendar.getInstance();//日历对象
+                calendar.setTime(date);//设置当前日期
+                return calendar.get(Calendar.YEAR)+"/"+String.valueOf(calendar.get(Calendar.MONTH)+1);
+            }catch (Exception e){
+                System.out.println(e+"###"+Words.toString());
+                return "error";
+            }
+        }
         disputes(String data,String datein,String location,String words)  {
             CateMap = new HashMap<>();
             ishaveName = false;
@@ -446,6 +455,8 @@ public class CateToJson {
 
         WriteJson.writeWithSec(countbySec,cateMapBySeC);
         WriteJson.writeWithLoc(countbyLoc,cateMapByLoc);
+        CountByDate countByDate = new CountByDate();
+        Map countbydate = countByDate.CountWithoudLoc(dis);
 
          System.out.println("end");
 //        for (String key:map.keySet()
