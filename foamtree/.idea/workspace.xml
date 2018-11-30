@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3da39ab1-21d4-4b04-8efa-5a76b92ca0a0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Classify/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Classify/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Classify/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Classify/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Classify/src/main/java/classification/CateToJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Classify/src/main/java/classification/CateToJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Classify/src/main/java/classification/WriteJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Classify/src/main/java/classification/WriteJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Classify/target/classes/classification/CateToJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Classify/target/classes/classification/CateToJson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Classify/target/classes/classification/WriteJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Classify/target/classes/classification/WriteJson.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/assets/img/ft500.png" beforeDir="false" afterPath="$PROJECT_DIR$/demos/assets/img/ft500.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demos/ft500.html" beforeDir="false" afterPath="$PROJECT_DIR$/demos/ft500.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,17 +18,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file leaf-file-name="ft500.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demos/ft500.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="1574" column="11" lean-forward="true" selection-start-line="1574" selection-start-column="11" selection-end-line="1574" selection-end-column="11" />
+            <state relative-caret-position="56">
+              <caret line="131" column="24" lean-forward="true" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
               <folding>
+                <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -41,46 +36,51 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="ft500.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demos/assets/img/ft500.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="countbyDate.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demos/countbyDate.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
+            <state relative-caret-position="5754">
               <caret line="274" column="7" selection-start-line="274" selection-end-line="274" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="scada.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demos/scada.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9085">
+            <state relative-caret-position="8295">
               <caret line="395" selection-start-line="395" selection-end-line="395" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="coverage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demos/coverage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3450">
+            <state relative-caret-position="3150">
               <caret line="150" selection-start-line="150" selection-end-line="170" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="geometry.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demos/geometry.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2116">
+            <state relative-caret-position="1932">
               <caret line="92" column="13" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="carrotsearch.foamtree.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/carrotsearch.foamtree.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76912">
+            <state relative-caret-position="70224">
               <caret line="3344" column="33" selection-start-line="3344" selection-start-column="33" selection-end-line="3344" selection-end-column="33" />
             </state>
           </provider>
@@ -90,7 +90,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>groupti</find>
       <find>grouplabel</find>
       <find>title</find>
       <find>titlebar</find>
@@ -120,6 +119,7 @@
       <find>民事@邻里纠纷</find>
       <find>btn</find>
       <find>cloud</find>
+      <find>width</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -140,17 +140,24 @@
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2552" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="2576" />
-    <option name="height" value="1416" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,13 +173,25 @@
             <path>
               <item name="foamtree" type="b2602c69:ProjectViewProjectNode" />
               <item name="foamtree" type="462c0819:PsiDirectoryNode" />
+              <item name="demos" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foamtree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foamtree" type="462c0819:PsiDirectoryNode" />
+              <item name="demos" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foamtree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foamtree" type="462c0819:PsiDirectoryNode" />
               <item name="yd" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,21 +214,11 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration name="background.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/foamtree/demos/background.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="contextmenu.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/foamtree/demos/contextmenu.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="coverage.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/foamtree/demos/coverage.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="csv.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/foamtree/demos/csv.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/foamtree/demos/index.html">
-      <method v="2" />
-    </configuration>
+    <configuration name="background.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/foamtree/demos/background.html" />
+    <configuration name="contextmenu.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/foamtree/demos/contextmenu.html" />
+    <configuration name="coverage.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/foamtree/demos/coverage.html" />
+    <configuration name="csv.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/foamtree/demos/csv.html" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/foamtree/demos/index.html" />
     <list>
       <item itemvalue="JavaScript Debug.background.html" />
       <item itemvalue="JavaScript Debug.contextmenu.html" />
@@ -246,38 +255,94 @@
       <workItem from="1541511253735" duration="606000" />
       <workItem from="1542288582470" duration="1463000" />
       <workItem from="1542891439307" duration="9062000" />
+      <workItem from="1542958117323" duration="2623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43933000" />
+    <option name="totallyTimeSpent" value="46556000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2552" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12923563" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12916666" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/demos/ft500.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33054">
+          <caret line="1574" column="11" lean-forward="true" selection-start-line="1574" selection-start-column="11" selection-end-line="1574" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/countbyDate.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5754">
+          <caret line="274" column="7" selection-start-line="274" selection-end-line="274" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/scada.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8295">
+          <caret line="395" selection-start-line="395" selection-end-line="395" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/coverage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3150">
+          <caret line="150" selection-start-line="150" selection-end-line="170" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/geometry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1932">
+          <caret line="92" column="13" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrotsearch.foamtree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70224">
+          <caret line="3344" column="33" selection-start-line="3344" selection-start-column="33" selection-end-line="3344" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/carrotsearch.foamtree.util.hints.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -357,49 +422,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demos/scada.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9085">
+        <state relative-caret-position="8295">
           <caret line="395" selection-start-line="395" selection-end-line="395" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demos/coverage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3450">
+        <state relative-caret-position="3150">
           <caret line="150" selection-start-line="150" selection-end-line="170" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demos/geometry.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2116">
+        <state relative-caret-position="1932">
           <caret line="92" column="13" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/carrotsearch.foamtree.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76912">
+        <state relative-caret-position="70224">
           <caret line="3344" column="33" selection-start-line="3344" selection-start-column="33" selection-end-line="3344" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demos/countbyDate.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
+        <state relative-caret-position="5754">
           <caret line="274" column="7" selection-start-line="274" selection-end-line="274" selection-end-column="7" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demos/assets/img/ft500.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/demos/ft500.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="1574" column="11" lean-forward="true" selection-start-line="1574" selection-start-column="11" selection-end-line="1574" selection-end-column="11" />
+        <state relative-caret-position="56">
+          <caret line="131" column="24" lean-forward="true" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
           <folding>
+            <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
